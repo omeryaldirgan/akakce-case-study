@@ -1,4 +1,4 @@
-import { LayoutGrid, Grid2X2, Grid3X3 } from "lucide-react";
+import { LayoutGrid, Grid3X3, Grid2X2 } from "~/icons/icon";
 
 const GRID_OPTIONS = [
   { value: 2, icon: Grid2X2 },
@@ -24,7 +24,7 @@ export default function GridToggle({ gridCols, setGridCols }: GridToggleProps) {
               : "bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600"
           }`}
         >
-          <Icon size={20} />
+          <Icon />
         </button>
       ))}
     </div>
