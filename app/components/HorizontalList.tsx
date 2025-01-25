@@ -1,7 +1,8 @@
 import { useRef, useState, useEffect } from "react";
 import { Product } from "~/models/Product";
 import ProductCard from "./ProductCard";
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import ChevronLeft from "lucide-react/ChevronLeft";
+import ChevronRight from "lucide-react/ChevronRight";
 
 interface HorizontalListProps {
   products: Product[];

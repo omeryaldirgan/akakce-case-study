@@ -1,4 +1,6 @@
-import { LayoutGrid, Grid2X2, Grid3X3 } from "lucide-react";
+import Grid3X3 from "lucide-react/Grid3X3";
+import Grid2X2 from "lucide-react/Grid2X2";
+import LayoutGrid from "lucide-react/LayoutGrid";
 
 const GRID_OPTIONS = [
   { value: 2, icon: Grid2X2 },
