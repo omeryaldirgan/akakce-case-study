@@ -1,6 +1,6 @@
 import { ProductResponse, ProductDetailType } from "~/models/Product";
 
-const BASE_URL = process.env.PUBLIC_API_URL;
+const BASE_URL = "https://mock.akakce.dev";
 
 const fetchData = async <T>(endpoint: string): Promise<T> => {
   try {
